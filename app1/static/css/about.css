@@ -1,0 +1,51 @@
+html{
+    font-size: 100%;
+}
+footer{
+    height: 15rem;
+    margin-top: 8rem;
+    background-color:#212529;
+    position: relative;
+}
+.adress{
+    position: absolute;
+    left: 30rem;
+}
+.email{
+    position: absolute;
+    left: 35rem;
+    top:11rem;
+}
+.brands{
+    position:absolute;
+    left: 60rem;
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+
+
+li:hover{
+    /* background-color:grey; */
+    background-color: rgb(4, 153, 116);
+}
+.active1{
+    /* background-color: grey; */
+    background-color: rgb(4, 153, 116);
+}
+footer{
+    height: 15rem;
+    margin-top: 20rem;
+    background-color:#212529;
+    opacity: 100%;
+    position: relative;
+}

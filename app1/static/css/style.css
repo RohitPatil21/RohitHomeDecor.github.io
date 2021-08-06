@@ -1,0 +1,71 @@
+html{
+    font-size: 100%;
+}
+.item ,img crsl{
+     height: 90vh !important;
+     width:  0% !important;
+     size: 100% 100%;
+}
+
+
+li:hover{
+    background-color:rgb(4, 153, 116);
+}
+.active1{
+    background-color: rgb(4, 153, 116);
+}
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:100%;
+    height:100%;
+    color: white;
+    box-sizing: border-box;
+}
+
+.absolute-div {
+    position: absolute;
+      top: 18rem;
+      left: 5rem;
+      right: 20rem;
+      bottom: 0;
+}
+.item {
+    position:relative;
+}
+
+footer{
+    height: 15rem;
+    margin-top: 4rem;
+    background-color:#212529;
+    position: relative;
+}
+.adress{
+    position: absolute;
+    left: 30rem;
+}
+.email{
+    position: absolute;
+    left: 35rem;
+    top:11rem;
+}
+.brands{
+    position:absolute;
+    left: 60rem;
+}
+.card{
+    box-shadow: 4px 4px 5px 3px grey;
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
